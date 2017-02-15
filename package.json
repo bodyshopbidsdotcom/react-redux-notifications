@@ -28,7 +28,7 @@
     "src/*",
     "src/*/**"
   ],
-  "repository": "git@github.com:bodyshopbidsdotcom/snapsheet-react-redux-notifications.git",
+  "repository": "git@github.com:bodyshopbidsdotcom/react-redux-notifications.git",
   "author": "Snapsheet Inc.",
   "license": "MIT",
   "devDependencies": {
