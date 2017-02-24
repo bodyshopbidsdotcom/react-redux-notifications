@@ -8,18 +8,19 @@ const generateId = (() => {
   return prefix => `${prefix}${++id}`;
 })();
 
-export function createNotification(type, message, duration) {
+export function createNotification(type, message, duration, data) {
   return {
     type,
     message,
     duration,
+    data,
     active: true,
     id: generateId('notification')
   };
 }
 
-export function displayNotification(type, message, duration) {
-  const notification = createNotification(type, message, duration);
+export function displayNotification(type, message, duration, data) {
+  const notification = createNotification(type, message, duration, data);
   return {
     type: SHOW_NOTIFICATION,
     notification

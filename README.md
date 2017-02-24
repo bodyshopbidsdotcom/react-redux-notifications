@@ -1,4 +1,5 @@
 # snapsheet-react-redux-notifications
+[![npm version](https://badge.fury.io/js/snapsheet-react-redux-notifications.svg)](https://badge.fury.io/js/snapsheet-react-redux-notifications)
 
 Notifications with react and redux
 
@@ -75,6 +76,9 @@ NotificationMessage.propTypes = {
 
 ### Display notification from the store
 ```javascript
+import { Notification } from 'snapsheet-react-redux-notifications';
+
+
 @connect((state, props) => {
   return {
     notifications: state.notifications.notifications
