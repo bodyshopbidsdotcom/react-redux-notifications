@@ -22,3 +22,6 @@ node_modules
 umd
 lib
 es6
+
+# no yarn
+yarn.lock
