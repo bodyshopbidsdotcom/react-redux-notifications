@@ -1,4 +1,5 @@
-import React, { PropTypes, Component } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { dismissFlashMessage, destroyNotification } from './notificationActions';
 
 export default class Notification extends Component {

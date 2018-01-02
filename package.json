@@ -4,8 +4,7 @@
   "main": "lib/index",
   "jsnext:main": "es6/index",
   "engines": {
-    "node": "^6.1.0",
-    "yarn": ">=0.18.0"
+    "node": "^6.1.0"
   },
   "scripts": {
     "build": "npm run build-cjs && npm run build-es6 && rimraf umd && npm run build-umd && npm run build-min",
@@ -45,8 +44,8 @@
     "eslint": "^3.15.0",
     "eslint-config-snapsheet": "^1.0.0",
     "eslint-plugin-react": "^6.9.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "react-redux": "^5.0.2",
     "redux": "^3.6.0",
     "rimraf": "^2.5.4",
@@ -54,7 +53,10 @@
     "webpack-dev-server": "^2.3.0"
   },
   "peerDependencies": {
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react": ">=15.0.0",
+    "react-dom": ">=15.0.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0"
   }
 }
