@@ -7,7 +7,7 @@ Notifications with react and redux
 
 ### Install:
 ```shell
-yarn add snapsheet-react-redux-notifications
+npm install snapsheet-react-redux-notifications --save
 ```
 
 ### Add reducer
