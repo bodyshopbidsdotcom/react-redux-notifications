@@ -1,11 +1,8 @@
 {
   "name": "snapsheet-react-redux-notifications",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "lib/index",
   "jsnext:main": "es6/index",
-  "engines": {
-    "node": "^6.1.0"
-  },
   "scripts": {
     "build": "npm run build-cjs && npm run build-es6 && rimraf umd && npm run build-umd && npm run build-min",
     "build-cjs": "rimraf lib && babel ./src -d lib",
@@ -31,8 +28,7 @@
   "author": "Snapsheet Inc.",
   "license": "MIT",
   "devDependencies": {
-    "babel": "^6.5.2",
-    "babel-cli": "^6.22.2",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.22.1",
     "babel-eslint": "^7.1.1",
     "babel-loader": "^6.2.10",
